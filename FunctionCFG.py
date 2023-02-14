@@ -16,8 +16,8 @@ for func in currentProgram.getListing().getFunctions(True):  #Iterates through a
 	path = "C:\\Users\erik_\\OneDrive\\CFG_Files\\" + str(f_name) + ".dot"
 
 	dot = open(path, "w+")
-  out_f = "digraph " + f_name + " {"
-  dot.write(out_f + "\n")
+        out_f = "digraph " + f_name + " {"
+        dot.write(out_f + "\n")
 
 	#Creates the Blocks that can be iterated over
 	codeBlockIterator = bbModel.getCodeBlocksContaining(func.getBody(), monitor)
