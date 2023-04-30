@@ -148,7 +148,9 @@ def main():
         paths = generate_function_paths(G, en, ex)
         new_paths = imports_only(paths)
         for path in new_paths:
-            print(capabilities(path, "capability_models.txt", capability_sequences))
+            if type(capabilities(path, "capability_models.txt", capability_sequences)) != type(None):
+                print(capabilities(path, "capability_models.txt", capability_sequences))
+
 
         #ppp(new_paths)
 
