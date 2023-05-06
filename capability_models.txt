@@ -1,0 +1,15 @@
+GetLogicalDrives, GetDriveTypeA, GetVolumeInformationA - Get Drive Info
+OpenProcess, OpenProcessToken, CreateProcessAsUserA - Start Shell
+OpenSCManagerA, OpenServiceA, StartServiceA - Start Service
+GetUserNameExA - whoami capability 
+OpenProcess, OpenProcessToken, CreateProcessAsUserA - Create Copy of Running Process
+GetCurrentProcess, OpenProcessToken, CreateProcessAsUserA - Creat Copy of Running Process
+URLDownloadToFileA - Download a File by URL
+InternetReadFile - Get a File from the C&C server
+GetWindowDirectoryA - Get the Windows Directory
+SetCurrentDirectoryA - Change the Windows Directory
+InternetOpenA, InternetSetOptionA, InternetConnectA, HttpOpenRequestA, HttpAddRequestHeadersA - Connect to C&C Server
+InternetOpenA, InternetConnectA - Connect to C&C Server
+InternetCloseHandle - Disconnect from C&C Server
+CreateThread, WaitForSingleObject, CloseHandle - Push/Pull Files from the C&C Server
+GetLogicalDrives, GetDriveTypeA, GetVolumeInformation - Get Drive Info
